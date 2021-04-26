@@ -1,10 +1,6 @@
 ---
 title: "Week 09 - Multiple Linear Regression Analysis"
-output: 
-  learnr::tutorial:
-    progressive: true
-    allow_skip: false
-    css: "css/learnr-theme.css"
+output: learnr::tutorial
 runtime: shiny_prerendered
 ---
 
@@ -14,11 +10,9 @@ library(learnrhash)
 gradethis::gradethis_setup()
 
 library(tidyverse)
-library(broom)
-library(texreg)
-library(qmir09)
 data(df_opposition) 
 ```
+
 
 ## Warm-Up
 
@@ -231,6 +225,8 @@ question("Which key assumption is required to interpret an estimated relationshi
 )
 
 ```
+
+
 
 
 ## Submit
